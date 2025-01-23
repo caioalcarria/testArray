@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+body{
+  margin-top: 100px;
+  text-decoration: none;
+  font-family: "Afacad Flux", serif;
+  color: #00336f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+header{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #00336f;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+header img{
+  height: 60%;
+}
+.table{
+  
+
+}
+footer{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  position:relative;
+  /* border-top: 1px solid #00336f; */
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  
+}
+footer h2{
+  font-size: 20px;
+  font-weight: 400;
+}
+section{
+  min-height: calc(100vh - 200px);
+  width: 90%;
+}
+
+.tableHeader{
+
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+
+  border-radius: 10px 10px 0 0;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.searchForm{
+  display: flex;
+  width: 40%;
+  min-width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
