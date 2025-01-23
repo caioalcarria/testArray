@@ -11,8 +11,8 @@ export default function tableHeader (view, table){
         </div>
         <div class="btn-group">
             <button class="btn addBtn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#createModal">add</button>
-            <button id="editBtn" class="btn updBtn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#editModal">update</button>
-            <button id="delBtn" class="btn delBtn btn-danger"  data-bs-toggle="modal" data-bs-target="#deleteModal">delete</button>
+            <button id="editBtn" class="btn updBtn btn-outline-primary">update</button>
+            <button id="delBtn" class="btn delBtn btn-danger" >delete</button>
         </div>
     `
 

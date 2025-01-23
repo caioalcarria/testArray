@@ -72,3 +72,10 @@ section{
   justify-content: space-between;
   align-items: center;
 }
+
+.toastBox{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 9999; /* Valor alto para garantir que fique na frente */
+}

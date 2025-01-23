@@ -6,6 +6,7 @@ import footer from "./components/footer.js";
 import table from "./components/table.js";
 import tableHeader from "./components/tableHeader.js";
 import {addUser, delUser, editUser} from "./usersController.js";
+import toast from "./components/toast.js";
 
 
 
@@ -27,3 +28,5 @@ addUser(view, table)
 delUser(view, table)
 
 editUser(view, table)
+
+
